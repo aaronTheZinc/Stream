@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "camera-capture": "^0.0.11",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "node-webcam": "^0.8.0",
+    "socket.io": "^4.3.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  }
+}
